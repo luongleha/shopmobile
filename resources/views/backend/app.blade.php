@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en" class="no-focus">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <title>Shop mobile</title>
+
+        <meta name="description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
+        <meta name="author" content="pixelcave">
+        <meta name="robots" content="noindex, nofollow">
+
+        <!-- Open Graph Meta -->
+        <meta property="og:title" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework">
+        <meta property="og:site_name" content="Codebase">
+        <meta property="og:description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+
+        <!-- Icons -->
+        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+        <link rel="shortcut icon" href="{{asset('assets/media/favicons/favicon.png')}}">
+        <link rel="icon" type="image/png" sizes="192x192" href="{{asset('assets/media/favicons/favicon-192x192.png')}}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/media/favicons/apple-touch-icon-180x180.png')}}">
+        <!-- END Icons -->
+
+        <!-- Stylesheets -->
+
+        <!-- Page JS Plugins CSS -->
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/slick/slick.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/slick/slick-theme.css')}}">
+
+        <!-- Fonts and Codebase framework -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,600,700&display=swap">
+        <link rel="stylesheet" id="css-main" href="{{asset('assets/css/codebase.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/datatables/dataTables.bootstrap4.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/select2/css/select2.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/components/toastr.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/select2/css/select2.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/jquery-tags-input/jquery.tagsinput.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/jquery-auto-complete/jquery.auto-complete.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/ion-rangeslider/css/ion.rangeSlider.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/dropzonejs/dist/dropzone.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/flatpickr/flatpickr.min.css')}}">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
+        @yield('header')
+        <link rel="stylesheet" href="{{asset('assets/js/plugins/fullcalendar/fullcalendar.min.css')}}">
+        <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+        <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
+        <!-- END Stylesheets -->
+    </head>
+    <body>
+        <div id="page-container" class="sidebar-o sidebar-inverse enable-page-overlay side-scroll page-header-fixed main-content-narrow">
+            <!-- Side Overlay-->
+            @include('backend.includes.side-overlay')
+            <!-- END Side Overlay -->
+
+            <!-- Sidebar -->
+            @include('backend.includes.sidebar')
+            <!-- END Sidebar -->
+
+            <!-- Header -->
+            @include('backend.includes.navbar')
+            <!-- END Header -->
+
+            <!-- Main Container -->
+            <main id="main-container">
+
+                <!-- Page Content -->
+                <div class="content">
+                    @yield('content')
+                </div>
+                <!-- END Page Content -->
+
+            </main>
+            <!-- END Main Container -->
+
+            <!-- Footer -->
+            @include('backend.includes.footer')
+            <!-- END Footer -->
+        </div>
+        <div>
+        @yield('modal')
+        </div>
+        <!-- END Page Container -->
+        <script src="{{asset('assets/js/codebase.core.min.js')}}"></script>
+
+        <!--
+            Codebase JS
+
+            Custom functionality including Blocks/Layout API as well as other vital and optional helpers
+            webpack is putting everything together at assets/_es6/main/app.js
+        -->
+        <script src="{{asset('assets/js/codebase.app.min.js')}}"></script>
+
+        <!-- Page JS Plugins -->
+        <script src="{{asset('assets/js/plugins/chartjs/Chart.bundle.min.js')}}"></script>
+        <script src="{{asset('assets/js/plugins/slick/slick.min.js')}}"></script>
+
+        <!-- Page JS Code -->
+        <script src="{{asset('assets/js/pages/be_pages_dashboard.min.js')}}"></script>
+        <script src="{{asset('assets/js/plugins/datatables/jquery.dataTables.min.js')}}"></script>
+        <script src="{{asset('assets/js/plugins/datatables/dataTables.bootstrap4.min.js')}}"></script>
+
+        <!-- Page JS Code -->
+        @yield('scripts')
+        <script src="{{asset('assets/js/pages/be_tables_datatables.min.js')}}"></script>
+        <script src="{{asset('assets/js/plugins/jquery-ui/jquery-ui.min.js')}}"></script>
+        <script src="{{asset('assets/js/plugins/moment/moment.min.js')}}"></script>
+        <script src="{{asset('assets/js/plugins/fullcalendar/fullcalendar.min.js')}}"></script>
+        <script src="{{asset('assets/js/pages/be_comp_calendar.min.js')}}"></script>
+    </body>
+</html>
