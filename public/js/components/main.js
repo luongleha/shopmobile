@@ -11305,9 +11305,9 @@ function delay(callback, ms) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\shop\resources\js\components\main.js */"./resources/js/components/main.js");
-__webpack_require__(/*! C:\xampp\htdocs\shop\resources\sass\components\fb_market.scss */"./resources/sass/components/fb_market.scss");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\shop\node_modules\toastr\toastr.scss */"./node_modules/toastr/toastr.scss");
+__webpack_require__(/*! C:\xampp\htdocs\shopmobile\resources\js\components\main.js */"./resources/js/components/main.js");
+__webpack_require__(/*! C:\xampp\htdocs\shopmobile\resources\sass\components\fb_market.scss */"./resources/sass/components/fb_market.scss");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\shopmobile\node_modules\toastr\toastr.scss */"./node_modules/toastr/toastr.scss");
 
 
 /***/ })

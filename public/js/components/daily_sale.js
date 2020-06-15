@@ -28539,7 +28539,7 @@ function delay(callback, ms) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\shop\resources\js\components\daily_sale.js */"./resources/js/components/daily_sale.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\shopmobile\resources\js\components\daily_sale.js */"./resources/js/components/daily_sale.js");
 
 
 /***/ })

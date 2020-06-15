@@ -29126,7 +29126,7 @@ function cleanFormCreateAgainFacebookMarket() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\shop\resources\js\components\pay.js */"./resources/js/components/pay.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\shopmobile\resources\js\components\pay.js */"./resources/js/components/pay.js");
 
 
 /***/ })

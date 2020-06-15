@@ -1,13 +1,13 @@
 {
-    "/js/components/category_market.js": "/js/components/category_market.js?id=22f3f71ea528ad7eb015",
-    "/js/components/daily_sale.js": "/js/components/daily_sale.js?id=b55668cca792a2be9b5e",
-    "/js/components/fb_market.js": "/js/components/fb_market.js?id=2c6c66a1d3a60ff10679",
-    "/js/components/main.js": "/js/components/main.js?id=3311f84eddd52f8e5a3a",
+    "/js/components/category_market.js": "/js/components/category_market.js?id=2762eca945eca73782f5",
+    "/js/components/daily_sale.js": "/js/components/daily_sale.js?id=e99ee1b4efbe1b228bb9",
+    "/js/components/fb_market.js": "/js/components/fb_market.js?id=e5537b8f4a149fdab81e",
+    "/js/components/main.js": "/js/components/main.js?id=e7894d25cbb6c38bef8d",
     "/css/components/fb_market.css": "/css/components/fb_market.css?id=a57fd3fd6bdc2c45352b",
     "/css/components/toastr.min.css": "/css/components/toastr.min.css?id=f9c2bf8c049fd325139d",
-    "/js/components/pay.js": "/js/components/pay.js?id=fd07fb3e385993ad0679",
-    "/js/components/pay_detail_market.js": "/js/components/pay_detail_market.js?id=d5980984b03c1ff83f0c",
-    "/js/components/pay_market.js": "/js/components/pay_market.js?id=3a3c3f072e9b0c15df8f",
-    "/js/components/pay_online.js": "/js/components/pay_online.js?id=6542cb1e51131a4ea117",
-    "/js/components/user.js": "/js/components/user.js?id=7a93b3fbec308f9f6578"
+    "/js/components/pay.js": "/js/components/pay.js?id=955bec81114b3b3c8089",
+    "/js/components/pay_detail_market.js": "/js/components/pay_detail_market.js?id=d5ab5188089b81def8b3",
+    "/js/components/pay_market.js": "/js/components/pay_market.js?id=2656c1ba537e9ebcf547",
+    "/js/components/pay_online.js": "/js/components/pay_online.js?id=7c359b37717fc17ca8f6",
+    "/js/components/user.js": "/js/components/user.js?id=af9f4a4c79f3135cc523"
 }

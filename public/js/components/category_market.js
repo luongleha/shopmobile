@@ -28819,7 +28819,7 @@ function delay(callback, ms) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\shop\resources\js\components\category_market.js */"./resources/js/components/category_market.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\shopmobile\resources\js\components\category_market.js */"./resources/js/components/category_market.js");
 
 
 /***/ })

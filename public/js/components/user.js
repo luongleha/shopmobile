@@ -28980,7 +28980,7 @@ function cleanFormEditUser() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\shop\resources\js\components\user.js */"./resources/js/components/user.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\shopmobile\resources\js\components\user.js */"./resources/js/components/user.js");
 
 
 /***/ })
